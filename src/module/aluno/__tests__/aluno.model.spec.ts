@@ -1,7 +1,7 @@
 import { Aluno } from "../aluno.model"
 import { KnexService } from "../../../service/knex"
 
-describe('Aluno model suite', () => {
+describe('Unit Aluno model suite', () => {
     it('deve retornar a listagem de alunos', async () => {
 
         let knexServiceMock: any

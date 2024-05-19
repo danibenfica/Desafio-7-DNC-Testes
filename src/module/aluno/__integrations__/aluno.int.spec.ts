@@ -1,7 +1,7 @@
 import * as request from 'supertest'
 
-describe('Integration - Aluno Suite', () => {
-    it('##GET /aluno', async () => {
+describe('Int Aluno Suite', () => {
+    it.only('##GET /aluno', async () => {
         const response = await request ('http://localhost:3000')
         .get('/aluno')
 
