@@ -10,7 +10,8 @@ router.get('/', async (_, res) => {
 
 router.post('/', async (req, res) => {
     const data = await alunoFactory.dbaluno(req.body)
-    return res.status(200).json({ data })
+    return res.status(201).json({ data })
 })
+
 
 export default router
