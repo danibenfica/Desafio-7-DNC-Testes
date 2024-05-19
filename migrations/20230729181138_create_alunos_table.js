@@ -6,7 +6,7 @@ exports.up = function (knex) {
   return knex.schema.createTable('aluno', (table) => {
     table.bigIncrements('id').primary();
     table.string('nome');
-    table.integer('cpf');
+    table.string('cpf');
   });
 };
 

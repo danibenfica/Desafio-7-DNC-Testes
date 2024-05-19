@@ -1,11 +1,11 @@
 export default {
     client: 'mysql2',
     connection: {
-      host: 'testednc',
-      port: 3309,
-      user: 'user',
+      host: 'localhost',
+      port: 3306,
+      user: 'root',
       password: 'password',
-      database: 'testednc',
+      database: 'dbaluno',
     },
   };
   

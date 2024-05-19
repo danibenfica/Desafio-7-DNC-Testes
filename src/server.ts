@@ -5,6 +5,6 @@ app.use(express.json());
 
 app.use('/aluno', alunoRoute);
 
-app.listen(8082, () => {
+app.listen(3000, () => {
   console.log('Servidor conectado!');
 });

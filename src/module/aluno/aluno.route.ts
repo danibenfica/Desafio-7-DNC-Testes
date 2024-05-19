@@ -1,17 +1,16 @@
-import * as express from 'express';
-import * as alunoModel from './aluno.model';
+import * as express from 'express'
+import alunoFactory from './aluno.factory'
 
-export const router = express.Router();
+const router = express.Router()
 
 router.get('/', async (_, res) => {
-  const data = await alunoModel.getAll();
-  return res.status(200).json({ data });
-});
+    const data = await alunoFactory.getAll()
+    return res.status(200).json({ data })
+})
 
 router.post('/', async (req, res) => {
-  const data = await alunoModel.store(req.body);
-  return res.status(200).json({ data });
-});
+    const data = await alunoFactory.dbaluno(req.body)
+    return res.status(200).json({ data })
+})
 
-
-export default router;
+export default router
