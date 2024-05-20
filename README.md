@@ -1,9 +1,10 @@
-#### Testes unitários e de integração: Sistema de Gerenciamento de Alunos
+## Testes unitários e de integração: Sistema de Gerenciamento de Alunos
+---
 
 Esse projeto é um estudo de como funcionam os testes unitários e de integração, que são peças fundamentais de qualquer sistema. 
 Com eles é possível ter um melhor controle do que está sendo desenvolvido e verificar se cada pedaço do código está funcionando corretamente, assim o sistema como um todo.
 Abaixo estão informações importantes que você precisará saber para executar o projeto!
----
+
 
 ### Instalação
 
